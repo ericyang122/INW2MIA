@@ -1,0 +1,26 @@
+{
+    "produtos": [
+    {
+    "id": 1,
+    "descricao": "nike jordan",
+    "estoque": 10,
+    "valor": 350,
+    "imagem": "../img/nikeTNA.png"
+    },
+    {
+    "id": 2,
+    "descricao": "Nike TS",
+    "estoque": 10,
+    "valor": 350,
+    "imagem" : "../img/NikeTNB.png"
+    },
+    {
+    "id": 3,
+    "descricao": "Nike TN",
+    "estoque": 10,
+    "valor": 345,
+    "imagem" : "../img/TenisTN.png"
+    }
+    ]
+   }
+   
