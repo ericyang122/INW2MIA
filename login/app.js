@@ -9,6 +9,8 @@ const firebaseConfig = {
 
   firebase.initializeApp(firebaseConfig);
 
+
+/*
   const emailField = document.getElementById('email');
   const passwordField = document.getElementById('password');
   const loginButton = document.getElementById('loginButton');
@@ -25,4 +27,4 @@ const firebaseConfig = {
         const errorMessage = errorMessage;
         console.error("ERRO DE AUTENTICACAO :", errorMessage)
     })
-  })
+  }) */
