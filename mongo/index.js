@@ -42,3 +42,22 @@ console.log(jessica.idade);
 console.log(jessica.profissao);
 jessica.save();
 
+const alunosSchema = new mongoose.Schema({
+    matricula : String,
+    nome : String,
+    idade : Number,
+    turma : String 
+});
+const alunos = mongoose.model('alunos',alunosSchema);
+
+const paulo = new alunos({
+    matricula : "12334",
+    nome: "paulo",
+    idade: 15,
+    turma: "2mia",
+})
+console.log(paulo.matricula);
+console.log(paulo.nome);
+console.log(paulo.idade);
+console.log(paulo.turma);
+paulo.save();
